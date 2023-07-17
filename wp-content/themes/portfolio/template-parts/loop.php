@@ -1,6 +1,6 @@
 <?php if ( have_posts() ) : ?>
 
-	<ul>
+
 
 		<?php while ( have_posts() ) : the_post(); ?>
 
@@ -10,6 +10,6 @@
 
 		<?php endwhile; ?>
 
-	</ul>
+
 
 <?php endif;
