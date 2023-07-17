@@ -58,20 +58,7 @@ add_action( 'after_setup_theme', function() {
 	$GLOBALS['content_width'] = apply_filters( 'bathe_content_width', 960 );
 }, 0 );
 
-/**
- * Register widget area.
- */
-add_action( 'widgets_init', function() {
-	register_sidebar( array(
-		'name'          => __( 'Sidebar', 'bathe' ),
-		'id'            => 'sidebar-1',
-		'description'   => '',
-		'before_widget' => '<section id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</section>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
-	) );
-} );
+
 
 /**
  * Enqueue scripts and styles.
