@@ -10,13 +10,13 @@
 <?php wp_body_open(); ?>
 
 <header class="header">
-<?php 
+<?php /*
     wp_nav_menu( 
         array( 
             'menu' => 'main'
         ) 
     ); 
-?>
+*/ ?>
 </header>
 
 <div class="lg:flex grow">
