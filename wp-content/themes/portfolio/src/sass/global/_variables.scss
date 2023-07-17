@@ -1,1 +1,10 @@
-$light-gray: #eee;
+// COLORS
+
+$bg: linear-gradient(
+	345deg,
+	hsl(236deg 16% 21%) 0%,
+	hsl(236deg 14% 19%) 50%,
+	hsl(234deg 11% 17%) 100%
+);
+
+$main: #0761e9;
