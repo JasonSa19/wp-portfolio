@@ -1,1 +1,11 @@
 @use 'variables' as *;
+
+@mixin container {
+	margin: 0 auto;
+	max-width: 90%;
+	width: 100%;
+
+	@media screen and (min-width: $full) {
+		max-width: $xxl;
+	}
+}

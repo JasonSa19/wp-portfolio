@@ -1,5 +1,39 @@
 @use '../global' as *;
 
+html {
+	font-size: 10px;
+}
+
 body {
 	background-image: $bg;
+	background-position: fixed;
+	font-size: 16px;
+}
+
+.main-wrapper {
+	@include container;
+}
+
+.main-btn {
+	background-color: $white;
+	color: $main;
+	font-weight: 400;
+	transition: all 0.3s;
+
+	svg {
+		fill: $main;
+		transition: all 0.3s;
+	}
+}
+
+.main-btn:hover {
+	background-color: $main;
+	color: $white;
+	transition: all 0.3s;
+
+	svg {
+		fill: $white;
+		stroke: $white;
+		transition: all 0.3s;
+	}
 }
