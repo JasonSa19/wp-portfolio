@@ -1,7 +1,30 @@
 @use '../global' as *;
 
 header {
+	.mail:hover {
+		.mail-svg-wrap {
+			background-color: $white;
+			transition: all 0.3s;
+		}
+
+		svg {
+			stroke: $main;
+			transition: all 0.3s;
+		}
+	}
+
 	.mail-svg-wrap {
 		background-color: $main;
+		transition: all 0.3s;
+	}
+}
+
+.navbar-toggler {
+	height: 2.4rem;
+	width: 4.4rem;
+
+	span {
+		background-color: $white;
+		height: 2px;
 	}
 }

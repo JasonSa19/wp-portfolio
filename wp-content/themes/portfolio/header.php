@@ -39,16 +39,26 @@ $resume		 	= get_field('resume', $id);
 			<a href="<?php echo $linkedin; ?>">LinkedIn</a> / <a href="<?php echo $github; ?>">Github</a> / <a href="<?php echo $instagram; ?>">Instagram</a> 
 		</div>
 
-		<div class="resume">
-			<a href="<?php echo $resume['guid']; ?>" target="_blank">
-				<button class="main-btn rounded-full py-4 px-8 flex justify-center items-center gap-3">
-					<svg width=24 height="27" >
-						<use xlink:href="#pdf"></use>
-					</svg>
-					<?php echo $resume['post_title']; ?>
-				</button>
-			</a>
+
+		<div class="right-side flex gap-24 items-center">
+			<div class="resume">
+				<a href="<?php echo $resume['guid']; ?>" target="_blank">
+					<button class="main-btn rounded-full py-4 px-8 flex justify-center items-center gap-3">
+						<svg width=24 height="27" >
+							<use xlink:href="#pdf"></use>
+						</svg>
+						<?php echo $resume['post_title']; ?>
+					</button>
+				</a>
+			</div>
+
+			<button class="navbar-toggler flex flex-col justify-between items-end">
+				<span class="top w-5/6 rounded-full"></span>
+				<span class="middle w-full rounded-full"></span>
+				<span class="bottom w-1/2 rounded-full"></span>
+			</button>
 		</div>
+	
 
 	</div>
 <?php /*
