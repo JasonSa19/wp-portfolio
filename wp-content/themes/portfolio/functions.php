@@ -43,7 +43,10 @@ add_action( 'after_setup_theme', function() {
 	) );
 
 	register_nav_menus( array(
-		'primary' => __( 'Primary Menu', 'bathe' ),
+		'primary' => __( 'Main Menu', 'bathe' ),
+	) );
+	register_nav_menus( array(
+		'secondary' => __( 'Footer Menu', 'bathe' ),
 	) );
 } );
 
