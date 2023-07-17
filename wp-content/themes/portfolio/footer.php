@@ -4,7 +4,13 @@
 </div>
 
 <footer class="footer">
-	<p class="copyright">© 2020 the contributors of Bathe under the GPLv2 license.</p>
+<?php 
+    wp_nav_menu( 
+        array( 
+            'menu' => 'footer'
+        ) 
+    ); 
+?>
 </footer>
 
 <?php wp_footer(); ?>

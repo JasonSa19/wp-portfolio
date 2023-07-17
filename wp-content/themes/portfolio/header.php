@@ -10,11 +10,13 @@
 <?php wp_body_open(); ?>
 
 <header class="header">
-	<h1>
-		<a class="font-bold text-blue-500 hover:underline" href="<?php echo esc_url( home_url( '/' ) ); ?>">
-			<?php bloginfo( 'name' ); ?>
-		</a>
-	</h1>
+<?php 
+    wp_nav_menu( 
+        array( 
+            'menu' => 'main'
+        ) 
+    ); 
+?>
 </header>
 
 <div class="lg:flex grow">
