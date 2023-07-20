@@ -19,7 +19,7 @@ header {
 	}
 
 	.menu-outer {
-		top: -200px;
+		top: -400px;
 		transition: $anim;
 
 		&.active {
@@ -32,8 +32,15 @@ header {
 				border-bottom: 2px solid $main;
 
 				li {
+					transition: $anim;
+
 					a {
 						font-size: 2.4rem;
+					}
+
+					&:hover {
+						transform: translateY(-8px);
+						transition: $anim;
 					}
 				}
 			}
@@ -42,7 +49,7 @@ header {
 }
 
 .navbar-toggler {
-	height: 2.4rem;
+	height: 2.5rem;
 	position: relative;
 	transition: $anim;
 	width: 4.4rem;
