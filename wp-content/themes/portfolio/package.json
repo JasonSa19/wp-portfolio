@@ -9,8 +9,8 @@
   ],
   "config": {
     "browsersync": {
-      "proxy": "localhost:80",
-      "port": 80
+      "proxy": "localhost:8888",
+      "port": 8888
     },
     "image": {
       "src": "src/images",
