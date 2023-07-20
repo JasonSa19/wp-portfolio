@@ -54,6 +54,7 @@ header {
 	}
 
 	&.active {
+		margin-bottom: 1.5rem;
 		transition: $anim;
 
 		span {
