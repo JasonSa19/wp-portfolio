@@ -19,13 +19,15 @@ header {
 	}
 
 	.menu-outer {
+		top: -110px;
+
 		.menu-main-container {
 			#menu-main {
-				background-color: $grey;
+				background-image: $bg;
 
 				li {
 					a {
-						font-size: 2rem;
+						font-size: 2.4rem;
 					}
 				}
 			}

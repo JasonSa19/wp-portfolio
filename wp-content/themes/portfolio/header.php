@@ -24,8 +24,8 @@
 	$resume = get_field('resume', $id);
 	?>
 
-	<header class="header main-wrapper pt-20">
-		<div class="header-inner flex justify-between items-center">
+	<header id="header" class="header pt-20">
+		<div class="header-inner main-wrapper flex justify-between items-center">
 			<div class="mail flex items-center justify-center gap-5">
 
 				<div class="mail-svg-wrap rounded-full w-20 h-20 flex justify-center items-center">
@@ -54,7 +54,7 @@
 					</a>
 				</div>
 
-				<button class="navbar-toggler flex flex-col justify-between items-end">
+				<button id="navbar-toggler" class="navbar-toggler flex flex-col justify-between items-end z-10">
 					<span class="top w-5/6 rounded-full"></span>
 					<span class="middle w-full rounded-full"></span>
 					<span class="bottom w-1/2 rounded-full"></span>
@@ -64,12 +64,12 @@
 
 		</div>
 
-		<div class="menu-outer">
+		<div id="main-menu-wrap" class="menu-outer fixed w-full z-0">
 			<?php
 			wp_nav_menu(
 				array(
 					'menu' => 'main',
-					'menu_class' => 'flex align-center justify-evenly'
+					'menu_class' => 'flex align-center justify-center gap-32 py-20'
 				)
 			);
 			?>
