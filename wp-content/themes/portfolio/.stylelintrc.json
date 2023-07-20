@@ -2,6 +2,8 @@
   "extends": ["stylelint-config-sass-guidelines", "stylelint-config-prettier"],
   "rules": {
     "indentation": "tab",
-    "max-nesting-depth": 4
+    "max-nesting-depth": 6,
+    "selector-max-compound-selectors": 6,
+    "selector-max-id": 6
   }
 }

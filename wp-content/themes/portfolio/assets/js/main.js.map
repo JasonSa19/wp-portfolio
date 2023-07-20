@@ -1,1 +1,1 @@
-{"version":3,"file":"main.js","sources":["../../src/js/main.js"],"sourcesContent":["console.log('foo');\r\n"],"names":[],"mappings":"AAAA,QAAQ,IAAI,KAAK;"}
+{"version":3,"file":"main.js","sources":["../../src/js/layout/menu.js","../../src/js/main.js"],"sourcesContent":["const flyOutMenu = () => {\r\n  console.log('Menu Function');\r\n};\r\n\r\nexport { flyOutMenu };\r\n","import { flyOutMenu } from './layout/menu';\r\n\r\nflyOutMenu();\r\n"],"names":[],"mappings":"AAAA,MAAM,aAAa,MAAM;AACvB,UAAQ,IAAI,eAAe;AAC7B;ACAA,WAAY;"}

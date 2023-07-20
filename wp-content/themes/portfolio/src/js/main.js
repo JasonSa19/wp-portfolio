@@ -1,1 +1,3 @@
-console.log('foo');
+import { flyOutMenu } from './layout/menu';
+
+flyOutMenu();

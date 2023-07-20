@@ -17,6 +17,20 @@ header {
 		background-color: $main;
 		transition: all 0.3s;
 	}
+
+	.menu-outer {
+		.menu-main-container {
+			#menu-main {
+				background-color: $grey;
+
+				li {
+					a {
+						font-size: 2rem;
+					}
+				}
+			}
+		}
+	}
 }
 
 .navbar-toggler {
