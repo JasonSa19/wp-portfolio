@@ -20,10 +20,16 @@ header {
 
 	.menu-outer {
 		top: -110px;
+		transition: $anim;
+
+		&.active {
+			top: 32px;
+		}
 
 		.menu-main-container {
 			#menu-main {
 				background-image: $bg;
+				border-bottom: 2px solid $main;
 
 				li {
 					a {
@@ -37,10 +43,40 @@ header {
 
 .navbar-toggler {
 	height: 2.4rem;
+	position: relative;
+	transition: $anim;
 	width: 4.4rem;
 
 	span {
 		background-color: $white;
 		height: 2px;
+		transition: $anim;
+	}
+
+	&.active {
+		transition: $anim;
+
+		span {
+			position: absolute;
+			transition: $anim;
+		}
+
+		.top,
+		.middle {
+			top: 50%;
+			width: 100%;
+		}
+
+		.top {
+			transform: translateY(50%) rotate(45deg);
+		}
+
+		.middle {
+			transform: translateY(50%) rotate(-45deg);
+		}
+
+		.bottom {
+			opacity: 0;
+		}
 	}
 }
