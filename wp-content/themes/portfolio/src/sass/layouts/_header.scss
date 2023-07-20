@@ -19,11 +19,11 @@ header {
 	}
 
 	.menu-outer {
-		top: -110px;
+		top: -200px;
 		transition: $anim;
 
 		&.active {
-			top: 32px;
+			top: 0;
 		}
 
 		.menu-main-container {

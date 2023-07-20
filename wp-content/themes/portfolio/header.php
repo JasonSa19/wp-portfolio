@@ -7,7 +7,8 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class('antialiased flex flex-col min-h-screen text-slate-900 dark:text-white'); ?>>
+
+<body data-aos-easing="easy-out-back" data-aos-delay="0" <?php body_class('antialiased flex flex-col min-h-screen text-slate-900 dark:text-white'); ?>>
 	<?php
 
 	wp_body_open();
@@ -24,7 +25,7 @@
 	$resume = get_field('resume', $id);
 	?>
 
-	<header id="header" class="header pt-20">
+	<header id="header" class="header pt-20" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="200">
 		<div class="header-inner main-wrapper flex justify-between items-center">
 			<div class="mail flex items-center justify-center gap-5">
 

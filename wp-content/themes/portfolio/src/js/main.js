@@ -6,4 +6,6 @@ import 'aos/dist/aos.css';
 import { flyOutMenu } from './layout/menu';
 
 flyOutMenu();
-AOS.init();
+AOS.init({
+  duration: 700,
+});

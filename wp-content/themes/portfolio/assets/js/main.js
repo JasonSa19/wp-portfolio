@@ -385,5 +385,7 @@ const flyOutMenu = () => {
   });
 };
 flyOutMenu();
-AOS.init();
+AOS.init({
+  duration: 700
+});
 //# sourceMappingURL=main.js.map
