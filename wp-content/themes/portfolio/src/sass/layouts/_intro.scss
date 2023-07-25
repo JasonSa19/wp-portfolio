@@ -1,0 +1,17 @@
+@use '../global/mixins' as *;
+@use '../global/variables' as *;
+
+#intro {
+	@include top-space-min;
+
+	.intro-imagewrap {
+		.image-holder {
+			height: 39rem;
+			width: 39rem;
+
+			img {
+				box-shadow: $shadow;
+			}
+		}
+	}
+}

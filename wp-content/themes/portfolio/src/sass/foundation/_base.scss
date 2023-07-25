@@ -16,6 +16,7 @@ body {
 
 .main-btn {
 	background-color: $white;
+	box-shadow: $shadow;
 	color: $main;
 	font-weight: 400;
 	transition: all 0.3s;
@@ -34,6 +35,31 @@ body {
 	svg {
 		fill: $white;
 		stroke: $white;
+		transition: all 0.3s;
+	}
+}
+
+.second-btn {
+	background-color: $main;
+	box-shadow: $shadow;
+	color: $white;
+	font-weight: 400;
+	transition: all 0.3s;
+
+	svg {
+		fill: $white;
+		transition: all 0.3s;
+	}
+}
+
+.second-btn:hover {
+	background-color: $white;
+	color: $main;
+	transition: all 0.3s;
+
+	svg {
+		fill: $main;
+		stroke: $main;
 		transition: all 0.3s;
 	}
 }

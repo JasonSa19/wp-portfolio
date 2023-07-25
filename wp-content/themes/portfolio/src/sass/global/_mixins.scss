@@ -9,3 +9,16 @@
 		max-width: $xxl;
 	}
 }
+
+@mixin top-space-min {
+	padding-top: 8rem;
+	@media screen and (min-width: $xl) {
+		padding-top: 18rem;
+	}
+}
+@mixin top-space {
+	padding-top: 18rem;
+	@media screen and (min-width: $xl) {
+		padding-top: 38rem;
+	}
+}
