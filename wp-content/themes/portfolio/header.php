@@ -79,5 +79,5 @@
 
 
 
-	<div class="lg:flex grow">
+	<div class="grow">
 		<main id="primary" role="main">

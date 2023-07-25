@@ -12,7 +12,7 @@ $image = get_field('image', $id);
 ?>
 
 <section id="intro" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="200">
-  <div class="intro-inner flex main-wrapper">
+  <div class="intro-inner flex justify-center main-wrapper">
     <div class="intro-textwrap basis-3/5">
       <h1>
         <?php echo $headline; ?>
