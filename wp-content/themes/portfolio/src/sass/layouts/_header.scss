@@ -1,14 +1,22 @@
 @use '../global' as *;
 
 header {
+	.mail {
+		svg {
+			fill: $white;
+			transition: all 0.3s;
+		}
+	}
+
 	.mail:hover {
 		.mail-svg-wrap {
 			background-color: $white;
+			cursor: pointer;
 			transition: all 0.3s;
 		}
 
 		svg {
-			stroke: $main;
+			fill: $main;
 			transition: all 0.3s;
 		}
 	}

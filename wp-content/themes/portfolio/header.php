@@ -30,7 +30,7 @@
 			<div class="mail flex items-center justify-center gap-5">
 
 				<div class="mail-svg-wrap rounded-full w-20 h-20 flex justify-center items-center">
-					<svg width=27 height=18>
+					<svg width="27" height="26">
 						<use xlink:href="#mail"></use>
 					</svg>
 				</div>
