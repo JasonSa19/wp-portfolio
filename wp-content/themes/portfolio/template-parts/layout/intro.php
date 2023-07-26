@@ -1,7 +1,5 @@
 <?php
 
-// POD Fields
-
 $id = get_the_ID();
 
 $headline = get_field('headline', $id);
@@ -10,6 +8,7 @@ $button = get_field('button', $id);
 $image = get_field('image', $id);
 
 ?>
+
 
 <section id="intro" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="200">
   <div class="intro-inner flex justify-center main-wrapper">
@@ -23,13 +22,8 @@ $image = get_field('image', $id);
         <a>
           <button class="second-btn rounded-full py-4 px-12 flex justify-center items-center gap-8 mt-16">lass uns
             starten
-            <svg id="right-arrow" xmlns="http://www.w3.org/2000/svg" width="31.68" height="15.918"
-              viewBox="0 0 31.68 15.918">
-              <g data-name="Gruppe 6" transform="translate(0 0)">
-                <path data-name="Pfad 1"
-                  d="M31.471,134.821h0l-7.2-7.2a.72.72,0,1,0-1.015,1.015l5.969,5.976H.72a.72.72,0,0,0,0,1.44h28.5l-5.969,5.969a.72.72,0,1,0,1.015,1.015l7.2-7.2A.72.72,0,0,0,31.471,134.821Z"
-                  transform="translate(0 -127.369)" fill="#fff" />
-              </g>
+            <svg width=24 height="27">
+              <use xlink:href="#right-arrow"></use>
             </svg>
           </button>
         </a>
