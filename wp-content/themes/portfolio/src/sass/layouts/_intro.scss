@@ -13,5 +13,32 @@
 				box-shadow: $shadow;
 			}
 		}
+
+		.speechbubble {
+			background: $main;
+			border-radius: 20px;
+			bottom: 12rem;
+			color: $white;
+			font-family: $font-main;
+			font-size: 2.2rem;
+			left: -10rem;
+			padding: 1.4rem 1rem;
+			text-align: center;
+
+			&::after {
+				border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) $main;
+				border-style: solid;
+				border-width: 0 0 30px 33px;
+				content: '';
+				display: block;
+				left: 95%;
+				margin-left: -16.5px;
+				position: absolute;
+				top: -19px;
+				transform: rotate(20deg);
+				width: 0;
+				z-index: 1;
+			}
+		}
 	}
 }

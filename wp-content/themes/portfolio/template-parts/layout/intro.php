@@ -2,10 +2,10 @@
 
 $id = get_the_ID();
 
-$headline = get_field('headline', $id);
-$text = get_field('text', $id);
-$button = get_field('button', $id);
-$image = get_field('image', $id);
+$headline = pods_field('headline', $id);
+$text = pods_field('text', $id);
+$button = pods_field('button', $id);
+$image = pods_field('image', $id);
 
 ?>
 
@@ -31,7 +31,7 @@ $image = get_field('image', $id);
 
     <div class="intro-imagewrap basis-2/5 flex justify-end items-center">
       <div class="imagewrap-inner relative">
-        <div class="speechbubble absolute">Hey, ich bin Jason👋</div>
+        <div class="speechbubble absolute flex items-center justify-center">Hey, ich bin Jason👋</div>
         <div class="image-holder">
           <img class="object-cover w-full h-full rounded-full" src="<?php echo $image["guid"]; ?>"
             alt="<?php echo $image["post_title"]; ?>">

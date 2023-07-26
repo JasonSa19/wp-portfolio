@@ -17,12 +17,12 @@
 	
 	$id = get_the_ID();
 
-	$mail = get_field('mail', $id);
+	$mail = pods_field('mail', $id);
 
-	$linkedin = get_field('linkedin', $id);
-	$github = get_field('github', $id);
-	$instagram = get_field('instagram', $id);
-	$resume = get_field('resume', $id);
+	$linkedin = pods_field('linkedin', $id);
+	$github = pods_field('github', $id);
+	$instagram = pods_field('instagram', $id);
+	$resume = pods_field('resume', $id);
 	?>
 
 	<header id="header" class="header pt-20" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="200">
