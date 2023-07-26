@@ -10,8 +10,8 @@ $image = pods_field('image', $id);
 ?>
 
 
-<section id="intro" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="200">
-  <div class="intro-inner flex justify-center main-wrapper">
+<section class="z-0" id="intro" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="200">
+  <div class="intro-inner flex flex-col lg:flex-row justify-center main-wrapper">
     <div class="intro-textwrap basis-3/5">
       <h1>
         <?php echo $headline; ?>
@@ -29,7 +29,7 @@ $image = pods_field('image', $id);
         </a>
     </div>
 
-    <div class="intro-imagewrap basis-2/5 flex justify-end items-center">
+    <div class="intro-imagewrap basis-2/5 flex justify-end items-center mt-24 md:mt-0">
       <div class="imagewrap-inner relative">
         <div class="speechbubble absolute flex items-center justify-center">Hey, ich bin Jason👋</div>
         <div class="image-holder">

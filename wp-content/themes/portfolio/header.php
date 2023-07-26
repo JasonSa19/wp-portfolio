@@ -65,12 +65,12 @@
 
 		</div>
 
-		<div id="main-menu-wrap" class="menu-outer fixed w-full z-0">
+		<div id="main-menu-wrap" class="menu-outer fixed w-full z-1">
 			<?php
 			wp_nav_menu(
 				array(
 					'menu' => 'main',
-					'menu_class' => 'flex align-center justify-center gap-32 py-20'
+					'menu_class' => 'flex flex-col lg:flex-row align-center justify-center gap-32 py-20'
 				)
 			);
 			?>
