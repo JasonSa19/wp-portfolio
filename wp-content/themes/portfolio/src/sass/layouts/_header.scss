@@ -27,8 +27,12 @@ header {
 	}
 
 	.menu-outer {
-		top: -400px;
+		top: -1000px;
 		transition: $anim;
+
+		@media screen and (min-width: $lg) {
+			top: -400px;
+		}
 
 		&.active {
 			top: 0;

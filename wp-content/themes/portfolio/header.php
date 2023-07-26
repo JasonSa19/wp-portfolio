@@ -26,7 +26,8 @@
 	?>
 
 	<header id="header" class="header pt-20" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="200">
-		<div class="header-inner main-wrapper flex justify-between items-center">
+		<div
+			class="header-inner main-wrapper flex flex-col-reverse lg:flex-row flex-wrap lg:flex-nowrap justify-between items-start lg:items-center">
 			<div class="mail flex items-center justify-center gap-5">
 
 				<div class="mail-svg-wrap rounded-full w-20 h-20 flex justify-center items-center">
