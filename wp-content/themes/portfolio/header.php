@@ -108,7 +108,7 @@
 
 		</div>
 
-		<div id="main-menu-wrap" class="menu-outer fixed w-full z-1 relative">
+		<div id="main-menu-wrap" class="menu-outer fixed w-full z-1 absolute">
 			<?php
 			wp_nav_menu(
 				array(
