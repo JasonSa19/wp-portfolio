@@ -16,7 +16,7 @@ $image = pods_field('image', $id);
       <h1>
         <?php echo $headline; ?>
       </h1>
-      <p class="pt-10 w-3/5">
+      <p class="pt-10 w-full lg:w-3/5">
         <?php echo $text; ?>
       <p>
         <a>

@@ -108,12 +108,12 @@
 
 		</div>
 
-		<div id="main-menu-wrap" class="menu-outer fixed w-full z-1">
+		<div id="main-menu-wrap" class="menu-outer fixed w-full z-1 relative">
 			<?php
 			wp_nav_menu(
 				array(
 					'menu' => 'main',
-					'menu_class' => 'flex flex-col lg:flex-row align-center justify-center gap-32 py-20'
+					'menu_class' => 'flex flex-col lg:flex-row align-center justify-center gap-32 py-20 pl-12 lg:pl-0'
 				)
 			);
 			?>
