@@ -10,7 +10,7 @@ $image = pods_field('image', $id);
 ?>
 
 
-<section class="z-0" id="intro" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="200">
+<section class="z-0 relative" id="intro" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="200">
   <div class="intro-inner flex flex-col lg:flex-row justify-center main-wrapper">
     <div class="intro-textwrap basis-3/5">
       <h1>

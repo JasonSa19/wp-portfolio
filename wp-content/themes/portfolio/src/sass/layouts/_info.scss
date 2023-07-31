@@ -1,0 +1,10 @@
+@use '../global/variables' as *;
+@use '../global/mixins' as *;
+
+#information {
+	@include top-space;
+
+	.svg-wrap {
+		background-color: $main;
+	}
+}

@@ -1,6 +1,8 @@
 @use '../global' as *;
 
 header {
+	z-index: 1;
+
 	.mail {
 		svg {
 			fill: $white;
@@ -27,6 +29,8 @@ header {
 	}
 
 	.menu-outer {
+		background-image: $bg;
+		border-bottom: 2px solid $main;
 		top: -1000px;
 		transition: $anim;
 
@@ -40,9 +44,6 @@ header {
 
 		.menu-main-container {
 			#menu-main {
-				background-image: $bg;
-				border-bottom: 2px solid $main;
-
 				li {
 					transition: $anim;
 

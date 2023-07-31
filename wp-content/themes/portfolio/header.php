@@ -108,17 +108,17 @@
 
 		</div>
 
-		<div id="main-menu-wrap" class="menu-outer fixed w-full z-1 absolute">
+		<div id="main-menu-wrap" class="menu-outer fixed w-full z-1 absolute h-screen lg:h-auto">
 			<?php
 			wp_nav_menu(
 				array(
 					'menu' => 'main',
-					'menu_class' => 'flex flex-col lg:flex-row align-center justify-center gap-32 py-20 pl-12 lg:pl-0'
+					'menu_class' => 'flex flex-col lg:flex-row align-center justify-center gap-24 lg:gap-32 pt-36 pb-24 lg:pt-20 lg:pb-20 pl-12 lg:pl-0'
 				)
 			);
 			?>
 			<?php if (!empty($resume)) { ?>
-				<div class="resume block lg:hidden">
+				<div class="resume block lg:hidden pl-12 lg:pl-0">
 					<a href="<?php echo $resume['guid']; ?>" target="_blank">
 						<button class="mr-12 lg:mr-0 main-btn rounded-full py-4 px-8 flex justify-center items-center gap-3">
 							<svg width=24 height="27">

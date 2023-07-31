@@ -5,12 +5,14 @@ body {
 	font-weight: 300;
 
 	h1,
-	h2 {
+	h2,
+	h3 {
 		font-family: $font-hl;
 	}
 
 	h1 {
 		font-size: 4.8rem;
+		font-weight: 500;
 		line-height: 120%;
 
 		@media screen and (min-width: $md) {
@@ -21,9 +23,45 @@ body {
 		}
 	}
 
+	h2 {
+		font-size: 2.8rem;
+		font-weight: 500;
+		line-height: 120%;
+
+		@media screen and (min-width: $md) {
+			font-size: 4rem;
+		}
+		@media screen and (min-width: $xxl) {
+			font-size: 6rem;
+		}
+	}
+
+	h3 {
+		font-size: 2rem;
+		font-weight: 400;
+		line-height: 120%;
+
+		@media screen and (min-width: $md) {
+			font-size: 2.4rem;
+		}
+		@media screen and (min-width: $xxl) {
+			font-size: 2.8rem;
+		}
+	}
+
 	#menu-main {
 		a {
 			font-family: $font-hl;
 		}
+	}
+
+	.topline {
+		background-color: $grey;
+		border-radius: 0 999px 999px 0;
+		display: inline-flex;
+		padding-bottom: 1rem;
+		padding-left: 5%;
+		padding-right: 2rem;
+		padding-top: 1rem;
 	}
 }
