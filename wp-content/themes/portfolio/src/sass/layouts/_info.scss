@@ -4,7 +4,11 @@
 #information {
 	@include top-space;
 
-	.svg-wrap {
-		background-color: $main;
+	.info-elements {
+		font-family: $font-hl;
+
+		.svg-wrap {
+			background-color: $main;
+		}
 	}
 }
