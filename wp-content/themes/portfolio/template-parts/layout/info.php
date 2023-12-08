@@ -21,7 +21,7 @@ $jobdegree = pods_field('jobdegree', $id);
     </h3>
   </div>
   <div class="info-content main-wrapper pt-8">
-    <div class="info-content-inner flex flex-row gap-6">
+    <div class="info-content-inner flex flex-row gap-24">
       <div class="headline-wrap basis-1/4">
         <h2>
           <?php echo $headline; ?>
@@ -31,7 +31,7 @@ $jobdegree = pods_field('jobdegree', $id);
         <p>
           <?php echo $text; ?>
         </p>
-        <div class="info-elements flex flex-row justify-between mt-24 flex-wrap gap-20">
+        <div class="info-elements flex flex-row justify-between mt-24 flex-wrap gap-6">
           <div class="info-element flex flex-row items-center gap-4">
             <div class="svg-wrap rounded-full w-20 h-20 flex justify-center items-center">
               <svg class="fill-white" height="30" width="30">
