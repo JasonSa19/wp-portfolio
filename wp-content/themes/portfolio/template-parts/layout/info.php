@@ -27,7 +27,7 @@ $anchor = pods_field('anchor', $id);
         <p>
           <?php echo $text; ?>
         </p>
-        <div class="info-elements flex flex-row justify-between mt-24 flex-wrap gap-6">
+        <div class="info-elements flex flex-row justify-between mt-24 flex-wrap gap-12">
           <div class="info-element flex flex-row items-center gap-4">
             <div class="svg-wrap rounded-full w-20 h-20 flex justify-center items-center">
               <svg class="fill-white" height="30" width="30">

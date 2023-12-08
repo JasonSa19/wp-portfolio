@@ -33,8 +33,7 @@ $image = pods_field('image', $id);
       <div class="imagewrap-inner relative">
         <div class="speechbubble absolute flex items-center justify-center">Hey, ich bin Jason👋</div>
         <div class="image-holder">
-          <img class="object-cover w-full h-full rounded-full" src="<?php echo $image["guid"]; ?>"
-            alt="<?php echo $image["post_title"]; ?>">
+          <img class="object-cover object-top w-full h-full rounded-full" src="<?php echo $image["guid"]; ?>" alt="<?php echo $image["post_title"]; ?>">
         </div>
       </div>
     </div>
