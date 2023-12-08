@@ -34,7 +34,7 @@ $jobdegree = pods_field('jobdegree', $id);
         <div class="info-elements flex flex-row justify-between mt-24 flex-wrap gap-6">
           <div class="info-element flex flex-row items-center gap-4">
             <div class="svg-wrap rounded-full w-20 h-20 flex justify-center items-center">
-              <svg class="fill-white">
+              <svg class="fill-white w-12 h-12">
                 <use xlink:href="#bday"></use>
               </svg>
             </div>
@@ -50,7 +50,7 @@ $jobdegree = pods_field('jobdegree', $id);
 
           <div class="info-element flex flex-row items-center gap-4">
             <div class="svg-wrap rounded-full w-20 h-20 flex justify-center items-center">
-              <svg class="fill-white">
+              <svg class="fill-white w-12 h-12">
                 <use xlink:href="#home"></use>
               </svg>
             </div>
@@ -58,7 +58,7 @@ $jobdegree = pods_field('jobdegree', $id);
           </div>
           <div class="info-element flex flex-row items-center gap-4">
             <div class="svg-wrap rounded-full w-20 h-20 flex justify-center items-center">
-              <svg class="fill-white">
+              <svg class="fill-white w-12 h-12">
                 <use xlink:href="#school"></use>
               </svg>
             </div>
@@ -66,7 +66,7 @@ $jobdegree = pods_field('jobdegree', $id);
           </div>
           <div class="info-element flex flex-row items-center gap-4">
             <div class="svg-wrap rounded-full w-20 h-20 flex justify-center items-center">
-              <svg class="fill-white">
+              <svg class="fill-white w-12 h-12">
                 <use xlink:href="#job"></use>
               </svg>
             </div>
