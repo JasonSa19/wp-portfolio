@@ -5,7 +5,11 @@ $id = get_the_ID();
 $headline = pods_field('infoheadline', $id);
 $topline = pods_field('infotopline', $id);
 $text = pods_field('infotext', $id);
-$anchor = pods_field('anchor', $id);
+
+
+$location = pods_field('location', $id);
+$degree = pods_field('degree', $id);
+$jobdegree = pods_field('jobdegree', $id);
 
 ?>
 
@@ -27,7 +31,7 @@ $anchor = pods_field('anchor', $id);
         <p>
           <?php echo $text; ?>
         </p>
-        <div class="info-elements flex flex-row justify-between mt-24 flex-wrap gap-12">
+        <div class="info-elements flex flex-row justify-between mt-24 flex-wrap gap-20">
           <div class="info-element flex flex-row items-center gap-4">
             <div class="svg-wrap rounded-full w-20 h-20 flex justify-center items-center">
               <svg class="fill-white" height="30" width="30">
@@ -50,7 +54,7 @@ $anchor = pods_field('anchor', $id);
                 <use xlink:href="#school"></use>
               </svg>
             </div>
-            Brilon, NRW
+            <?php echo $location; ?>
           </div>
           <div class="info-element flex flex-row items-center gap-4">
             <div class="svg-wrap rounded-full w-20 h-20 flex justify-center items-center">
@@ -58,7 +62,7 @@ $anchor = pods_field('anchor', $id);
                 <use xlink:href="#school"></use>
               </svg>
             </div>
-            Allg. Hochschulreife (2020)
+            <?php echo $degree; ?>
           </div>
           <div class="info-element flex flex-row items-center gap-4">
             <div class="svg-wrap rounded-full w-20 h-20 flex justify-center items-center">
@@ -66,8 +70,7 @@ $anchor = pods_field('anchor', $id);
                 <use xlink:href="#school"></use>
               </svg>
             </div>
-            Abgeschlossene Ausbildung<br>
-            zum Mediengestalter Digital
+            <?php echo $jobdegree; ?>
           </div>
         </div>
       </div>
