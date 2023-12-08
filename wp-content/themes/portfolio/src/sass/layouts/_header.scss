@@ -1,4 +1,4 @@
-@use '../global' as *;
+@use "../global" as *;
 
 header {
 	z-index: 1;
@@ -31,7 +31,7 @@ header {
 	.menu-outer {
 		background-image: $bg;
 		border-bottom: 2px solid $main;
-		top: -1000px;
+		top: -2000px;
 		transition: $anim;
 
 		@media screen and (min-width: $lg) {
