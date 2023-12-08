@@ -1,7 +1,7 @@
-@use '../global/variables' as *;
-@use '../global/mixins' as *;
+@use "../global/variables" as *;
+@use "../global/mixins" as *;
 
-#information {
+#info {
 	@include top-space;
 
 	.info-elements {

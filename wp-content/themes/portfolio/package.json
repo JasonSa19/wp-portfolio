@@ -1,7 +1,7 @@
 {
-  "name": "bathe",
+  "name": "portfolio",
   "version": "3.0.0",
-  "description": "The simplest WordPress starter theme including full setup for Tailwind CSS, Sass, PostCSS, Autoprefixer, Vite, TypeScript, Browsersync, imagemin, Prettier, stylelint, ESLint.",
+  "description": "Portfolio-Theme auf Basis von Bathe Starter",
   "browserslist": [
     "> 1%",
     "last 2 versions",

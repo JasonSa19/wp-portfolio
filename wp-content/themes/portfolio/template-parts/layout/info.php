@@ -3,16 +3,14 @@
 $id = get_the_ID();
 
 $headline = pods_field('infoheadline', $id);
-$topline = pods_field('topline', $id);
+$topline = pods_field('infotopline', $id);
 $text = pods_field('infotext', $id);
-$anchor = pods_field('infoanchor', $id);
-
+$anchor = pods_field('anchor', $id);
 
 ?>
 
 
-<section class="z-0 relative" id="<?php echo $anchor; ?>" data-aos="fade-up" data-aos-easing="ease"
-  data-aos-delay="200">
+<section class="block-intro z-0 relative" id="info" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="200">
   <div class="topline">
     <h3>
       <?php echo $topline; ?>
